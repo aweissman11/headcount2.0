@@ -19,7 +19,6 @@ class App extends Component {
   }
 
   componentDidMount() {
-
     const cleanData = new DistrictRepository(kinderData)
     this.setState({
       data: cleanData.findAllMatches()

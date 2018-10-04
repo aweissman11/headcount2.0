@@ -54,8 +54,8 @@ export default class DistrictRepository {
       locations.forEach( location => {
         if (location.toLowerCase().includes(entry.toLowerCase())) {
           returnData.push({
-            stats: this.stats[location.toUpperCase()],
-            location: location
+            stats: this.stats[location],
+            location: location.toUpperCase()
           })
         }
       })
@@ -63,7 +63,7 @@ export default class DistrictRepository {
       locations.forEach( location => {
         returnData.push({
             stats: this.stats[location],
-            location: location
+            location: location.toUpperCase()
           })
       })
     }
