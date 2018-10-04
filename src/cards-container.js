@@ -1,27 +1,27 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-import InfoCards from './info-cards';
+import InfoCard from './info-card';
+import './cards-container.css';
 
+const CardsContainer = (props) => {
 
-class CardsContainer extends Component {
-  constructor(props) {
-    super(props)
+  const infoCards = props.data.map( (place, i) => {
+    return(
+      <InfoCard key={Date.now() + (i * 23)} data={place} />
+    )
+  })
 
-    this.state = {
-      compareCard1: {},
-      compareCard2: {}
-    }
-  }
-
-  render() {
     return(
       <div className='cards-container'>
-        <InfoCards data={this.props.data}/>
+        { infoCards }
       </div>
 
     )
-  }
 }
 
-export default CardsContainer;
-        // <Compairison compareCards={this.state}/>
+CardsContainer.propTypes = {
+  data: PropTypes.array
+}
+
+export default CardsContainer

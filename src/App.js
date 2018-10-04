@@ -14,29 +14,37 @@ class App extends Component {
     super()
 
     this.state = {
-      data: {}
+      data: []
     }
   }
 
   componentDidMount() {
 
     const cleanData = new DistrictRepository(kinderData)
-
     this.setState({
-      data: cleanData.stats
+      data: cleanData.findAllMatches()
+    })
+  }
+
+  districtSearch = (entry) => {
+    const cleanData = new DistrictRepository(kinderData)
+    this.setState({
+      data: cleanData.findAllMatches(entry)
     })
   }
 
   render() {
+
+    const { data } = this.state
 
     return (
       <div>
         <br />
         Welcome To Headcount 2.0
         <hr />
-        <DataHeader data={this.state.data}/>
+        <DataHeader data={data} districtSearch={this.districtSearch}/>
         <hr />
-        <CardsContainer data={this.state.data}/>
+        <CardsContainer data={data}/>
       </div>
 
     );

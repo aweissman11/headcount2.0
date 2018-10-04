@@ -1,0 +1,24 @@
+.info-card {
+  filter: drop-shadow(3px 3px 3px gray);
+}
+
+.year-list {
+  margin-bottom: 10px;
+}
+
+.hi {
+  color: green;
+}
+
+.low {
+  color: red;
+}
+
+.low, .hi {
+  margin: 0;
+}
+
+.emoji {
+  color: black;
+}
+

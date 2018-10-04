@@ -22,6 +22,7 @@ export default class DistrictRepository {
   }
 
   findByName = (enteredName) => {
+    console.log(enteredName)
     const locations = Object.keys(this.stats)
 
     if (enteredName) {
@@ -35,9 +36,8 @@ export default class DistrictRepository {
       })
 
       if (correctDistrict) {
-        correctDistrict = correctDistrict.toUpperCase()
         return {
-          location: correctDistrict,
+          location: correctDistrict.toUpperCase(),
           stats: this.stats[correctDistrict]
         }
       }
@@ -47,21 +47,47 @@ export default class DistrictRepository {
   }
 
   findAllMatches = (entry) => {
-    const locations = Object.keys(this.stats)
+    const locations = Object.keys(this.stats);
     const returnData = [];
 
     if (entry) {
       locations.forEach( location => {
         if (location.toLowerCase().includes(entry.toLowerCase())) {
-          returnData.push(this.stats[location])
+          returnData.push({
+            stats: this.stats[location.toUpperCase()],
+            location: location
+          })
         }
       })
     } else {
       locations.forEach( location => {
-        returnData.push(this.stats[location])
+        returnData.push({
+            stats: this.stats[location],
+            location: location
+          })
       })
     }
     return returnData;
   }
+
+  findAverage = (place) => {
+    const thisPlace = this.findByName(place).stats;
+    const placeArray = Object.keys(thisPlace);
+
+    const total = placeArray.reduce( (avg, year) => {
+      return avg += thisPlace[year]
+    }, 0)
+
+    return Math.round((total / placeArray.length) * 1000) / 1000
+  }
+
+  compareDistrictAverages = (school1, school2) => {
+    return ({
+      [school1.toUpperCase()]: this.findAverage(school1),
+      [school2.toUpperCase()]: this.findAverage(school2),
+      compared: Math.round((this.findAverage(school1) / this.findAverage(school2)) * 1000) / 1000
+    })
+  }
+
 
 }
