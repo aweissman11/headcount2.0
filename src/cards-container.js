@@ -8,7 +8,11 @@ const CardsContainer = (props) => {
 
   const infoCards = props.data.map( (place, i) => {
     return(
-      <InfoCard key={Date.now() + (i * 23)} data={place} />
+      <InfoCard 
+        key={Date.now() + (i * 23)}
+        data={place} 
+        compareData={props.compareData}
+      />
     )
   })
 
