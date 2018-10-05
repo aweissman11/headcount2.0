@@ -7,9 +7,9 @@ import './info-card.css';
 
 ReactChartkick.addAdapter(Chart)
 
-const Card = ({ data }) => {
+const Card = ({ data, compareData }) => {
   return (
-    <div className='info-card'>
+    <div className='info-card' onClick={() => compareData(data.location)}>
       <h4>{data.location}</h4>
 
       <div className='year-list'>

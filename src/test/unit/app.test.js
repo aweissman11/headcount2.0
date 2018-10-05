@@ -6,16 +6,16 @@ import App from '../../App';
 
 describe('App', () => {
 
-  it('should pass a test', () => {
-    console.log("pass!")
-  }),
-
   it('should have hold the right elements', () => {
     const wrapper = shallow(<App />);
     expect(wrapper).toMatchSnapshot()
   }),
 
-  it()
+  it('should add a district to the comparison array', () => {
+    const wrapper = shallow(<App />);
+    wrapper.instance()
+
+  })
   
 
 })

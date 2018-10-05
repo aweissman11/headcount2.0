@@ -12,8 +12,9 @@ class DataHeader extends Component {
   }
 
   searchChange = (e) => {
+    const { value } = e.target
     this.setState({
-      search: e.target.value
+      search: value
     })
   }
 
@@ -30,7 +31,13 @@ class DataHeader extends Component {
     return (
       <div className='data-header'>
 
-        <input onChange={this.searchChange} onKeyUp={this.enterSearch} value={this.state.search} placeholder='search'></input>
+        <input 
+          onChange={this.searchChange}
+          onKeyUp={this.enterSearch}
+          value={this.state.search}
+          placeholder='search'
+        >
+        </input>
         <h3>INFO</h3>
       </div>
     )

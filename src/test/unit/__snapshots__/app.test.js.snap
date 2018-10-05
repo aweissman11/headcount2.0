@@ -9,7 +9,7 @@ exports[`App should have hold the right elements 1`] = `
     data={
       Array [
         Object {
-          "location": "Colorado",
+          "location": "COLORADO",
           "stats": Object {
             "2004": 0.24,
             "2005": 0.278,
@@ -2909,11 +2909,13 @@ exports[`App should have hold the right elements 1`] = `
     districtSearch={[Function]}
   />
   <hr />
+  <Comparison />
+  <hr />
   <CardsContainer
     data={
       Array [
         Object {
-          "location": "Colorado",
+          "location": "COLORADO",
           "stats": Object {
             "2004": 0.24,
             "2005": 0.278,
