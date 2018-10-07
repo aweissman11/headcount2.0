@@ -3,6 +3,7 @@
 exports[`InfoCard should have hold the right elements 1`] = `
 <div
   className="info-card"
+  onClick={[Function]}
 >
   <h4>
     Colorado
@@ -12,7 +13,7 @@ exports[`InfoCard should have hold the right elements 1`] = `
   >
     <p
       className="low"
-      key="1538613777840"
+      key="1538944598906"
     >
       2004
       : 
@@ -20,12 +21,12 @@ exports[`InfoCard should have hold the right elements 1`] = `
       <span
         className="emoji"
       >
-        ...☹️
+        ...😡
       </span>
     </p>
     <p
       className="low"
-      key="1538613777857"
+      key="1538944598923"
     >
       2005
       : 
@@ -33,12 +34,12 @@ exports[`InfoCard should have hold the right elements 1`] = `
       <span
         className="emoji"
       >
-        ...☹️
+        ...😡
       </span>
     </p>
     <p
       className="low"
-      key="1538613777874"
+      key="1538944598940"
     >
       2006
       : 
@@ -46,12 +47,12 @@ exports[`InfoCard should have hold the right elements 1`] = `
       <span
         className="emoji"
       >
-        ...☹️
+        ...😡
       </span>
     </p>
     <p
       className="low"
-      key="1538613777891"
+      key="1538944598957"
     >
       2007
       : 
@@ -59,12 +60,12 @@ exports[`InfoCard should have hold the right elements 1`] = `
       <span
         className="emoji"
       >
-        ...☹️
+        ...😡
       </span>
     </p>
     <p
       className="hi"
-      key="1538613777892"
+      key="1538944598958"
     >
       2008
       : 
@@ -72,12 +73,12 @@ exports[`InfoCard should have hold the right elements 1`] = `
       <span
         className="emoji"
       >
-        ...😁
+        ...👍
       </span>
     </p>
     <p
       className="hi"
-      key="1538613777905"
+      key="1538944598971"
     >
       2009
       : 
@@ -85,12 +86,12 @@ exports[`InfoCard should have hold the right elements 1`] = `
       <span
         className="emoji"
       >
-        ...😁
+        ...👍
       </span>
     </p>
     <p
       className="hi"
-      key="1538613777918"
+      key="1538944598984"
     >
       2010
       : 
@@ -98,12 +99,12 @@ exports[`InfoCard should have hold the right elements 1`] = `
       <span
         className="emoji"
       >
-        ...😁
+        ...👍
       </span>
     </p>
     <p
       className="hi"
-      key="1538613777931"
+      key="1538944598997"
     >
       2011
       : 
@@ -111,12 +112,12 @@ exports[`InfoCard should have hold the right elements 1`] = `
       <span
         className="emoji"
       >
-        ...😁
+        ...👍
       </span>
     </p>
     <p
       className="hi"
-      key="1538613777944"
+      key="1538944599010"
     >
       2012
       : 
@@ -124,12 +125,12 @@ exports[`InfoCard should have hold the right elements 1`] = `
       <span
         className="emoji"
       >
-        ...😁
+        ...👍
       </span>
     </p>
     <p
       className="hi"
-      key="1538613777957"
+      key="1538944599023"
     >
       2013
       : 
@@ -137,12 +138,12 @@ exports[`InfoCard should have hold the right elements 1`] = `
       <span
         className="emoji"
       >
-        ...😁
+        ...👍
       </span>
     </p>
     <p
       className="hi"
-      key="1538613777970"
+      key="1538944599036"
     >
       2014
       : 
@@ -150,7 +151,7 @@ exports[`InfoCard should have hold the right elements 1`] = `
       <span
         className="emoji"
       >
-        ...😁
+        ...👍
       </span>
     </p>
   </div>

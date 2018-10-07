@@ -4,27 +4,27 @@ import PropTypes from 'prop-types';
 
 class DataHeader extends Component {
   constructor(props) {
-    super(props)
+    super(props);
 
     this.state = {
-      search: '',
-    }
+      search: ''
+    };
   }
 
   searchChange = (e) => {
-    const { value } = e.target
+    const { value } = e.target;
     this.setState({
       search: value
-    })
+    });
   }
 
   enterSearch = () => {
-    this.props.districtSearch(this.state.search)
+    this.props.districtSearch(this.state.search);
   }
 
   enterDropdown = (target) => {
-    console.log('click')
-    this.props.districtSearch(target)
+    console.log('click');
+    this.props.districtSearch(target);
   }
 
   render() {
@@ -38,15 +38,15 @@ class DataHeader extends Component {
           placeholder='search'
         >
         </input>
-        <h3>INFO</h3>
+        <h3>Kindergartners in Full-Day-Programs</h3>
       </div>
-    )
+    );
   }
 }
 
 DataHeader.propTypes = {
   data: PropTypes.array
-}
+};
 
 export default DataHeader;
 

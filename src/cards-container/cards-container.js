@@ -1,31 +1,31 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import InfoCard from './info-card';
+import InfoCard from '../info-card/info-card';
 import './cards-container.css';
 
 const CardsContainer = (props) => {
 
   const infoCards = props.data.map( (place, i) => {
-    return(
+    return (
       <InfoCard 
         key={Date.now() + (i * 23)}
         data={place} 
         compareData={props.compareData}
       />
-    )
-  })
+    );
+  });
 
-    return(
-      <div className='cards-container'>
-        { infoCards }
-      </div>
+  return (
+    <div className='cards-container'>
+      { infoCards }
+    </div>
 
-    )
-}
+  );
+};
 
 CardsContainer.propTypes = {
   data: PropTypes.array
-}
+};
 
-export default CardsContainer
+export default CardsContainer;

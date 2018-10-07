@@ -1,57 +1,64 @@
 import React, { Component } from 'react';
 
-import kinderData from './data/kindergartners_in_full_day_program.js';
+import kinderData from '../data/kindergartners_in_full_day_program.js';
+import thirdGraders from '../data/3rd_grade_tests.js';
 
 import './App.css';
-import DataHeader from './data-header';
-import CardsContainer from './cards-container';
-import DistrictRepository from './helper';
-import Comparison from './comparison';
+import DataHeader from '../data-header/data-header';
+import CardsContainer from '../cards-container/cards-container';
+import DistrictRepository from '../helper';
+import Comparison from '../comparison/comparison';
 
 
 
 class App extends Component {
   constructor() {
-    super()
+    super();
 
     this.state = {
       data: [],
-      comparison: [],
-    }
+      comparison: []
+    };
   }
 
   componentDidMount() {
-    const cleanData = new DistrictRepository(kinderData)
+    const cleanData = new DistrictRepository(kinderData);
     this.setState({
       data: cleanData.findAllMatches(),
       cleanData: cleanData
-    })
+    });
   }
 
   districtSearch = (entry) => {
     this.setState({
       data: this.state.cleanData.findAllMatches(entry)
-    })
+    });
   }
 
   addComparisonCard = (district) => {
-    const newDistrict = this.state.cleanData.findByName(district)
+    const newDistrict = this.state.cleanData.findByName(district);
 
     if (!this.state.comparison.includes(newDistrict)) {
       this.setState({
         comparison: [newDistrict, ...this.state.comparison]
-      })
+      });
     } else {
-      console.log('includes')
+      console.log('includes');
+    }
+
+    if (this.state.comparison.length >= 1) {
+      this.setState({
+        comparisonData: this.state.cleanData.compareDistrictAverages(district, this.state.comparison[0].location)
+      });
     }
   }
 
   removeComparisonCard = (place) => {
     const newComparisons = this.state.comparison.filter(district => {
-      return district.location !== place
-    })
+      return district.location !== place;
+    });
 
-    this.setState({comparison: newComparisons})
+    this.setState({comparison: newComparisons});
   }
 
   // compareDistricts
@@ -67,12 +74,12 @@ class App extends Component {
 
   render() {
 
-    const { data, comparison } = this.state
+    const { data, comparison, comparisonData } = this.state;
 
     return (
       <div>
         <br />
-        Welcome To Headcount 2.0
+        <h1>Welcome To Headcount 2.0</h1>
         <hr />
         <DataHeader 
           data={data}
@@ -82,6 +89,7 @@ class App extends Component {
         <Comparison
           comparison={comparison}
           removeComparisonCard={this.removeComparisonCard}
+          comparisonData={comparisonData}
         />
         <hr />
         <CardsContainer
