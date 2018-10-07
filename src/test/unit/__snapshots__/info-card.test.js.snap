@@ -13,7 +13,7 @@ exports[`InfoCard should have hold the right elements 1`] = `
   >
     <p
       className="low"
-      key="1538944598906"
+      key="0.242004"
     >
       2004
       : 
@@ -26,7 +26,7 @@ exports[`InfoCard should have hold the right elements 1`] = `
     </p>
     <p
       className="low"
-      key="1538944598923"
+      key="0.2782005"
     >
       2005
       : 
@@ -39,7 +39,7 @@ exports[`InfoCard should have hold the right elements 1`] = `
     </p>
     <p
       className="low"
-      key="1538944598940"
+      key="0.3372006"
     >
       2006
       : 
@@ -52,7 +52,7 @@ exports[`InfoCard should have hold the right elements 1`] = `
     </p>
     <p
       className="low"
-      key="1538944598957"
+      key="0.3952007"
     >
       2007
       : 
@@ -65,7 +65,7 @@ exports[`InfoCard should have hold the right elements 1`] = `
     </p>
     <p
       className="hi"
-      key="1538944598958"
+      key="0.5362008"
     >
       2008
       : 
@@ -78,7 +78,7 @@ exports[`InfoCard should have hold the right elements 1`] = `
     </p>
     <p
       className="hi"
-      key="1538944598971"
+      key="0.5982009"
     >
       2009
       : 
@@ -91,7 +91,7 @@ exports[`InfoCard should have hold the right elements 1`] = `
     </p>
     <p
       className="hi"
-      key="1538944598984"
+      key="0.642010"
     >
       2010
       : 
@@ -104,7 +104,7 @@ exports[`InfoCard should have hold the right elements 1`] = `
     </p>
     <p
       className="hi"
-      key="1538944598997"
+      key="0.6722011"
     >
       2011
       : 
@@ -117,7 +117,7 @@ exports[`InfoCard should have hold the right elements 1`] = `
     </p>
     <p
       className="hi"
-      key="1538944599010"
+      key="0.6952012"
     >
       2012
       : 
@@ -130,7 +130,7 @@ exports[`InfoCard should have hold the right elements 1`] = `
     </p>
     <p
       className="hi"
-      key="1538944599023"
+      key="0.7032013"
     >
       2013
       : 
@@ -143,7 +143,7 @@ exports[`InfoCard should have hold the right elements 1`] = `
     </p>
     <p
       className="hi"
-      key="1538944599036"
+      key="0.7412014"
     >
       2014
       : 

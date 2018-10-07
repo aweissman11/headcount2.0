@@ -22,7 +22,6 @@ export default class DistrictRepository {
   }
 
   findByName = (enteredName) => {
-    console.log(enteredName);
     const locations = Object.keys(this.stats);
 
     if (enteredName) {

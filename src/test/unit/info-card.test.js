@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import { shallow } from 'enzyme';
 
-import InfoCard from '../../info-card';
+import InfoCard from '../../info-card/info-card';
 
 describe('InfoCard', () => {
 

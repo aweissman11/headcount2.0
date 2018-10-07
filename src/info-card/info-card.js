@@ -17,14 +17,14 @@ const Card = ({ data, compareData }) => {
           Object.keys(data.stats).map( (year, i) => {
             if (data.stats[year] > .5) {
               return (
-                <p key={Date.now() + (i * 13)} className='hi'>
+                <p key={data.stats[year] + year} className='hi'>
                   {year}: {data.stats[year]} 
                   <span className='emoji'>...👍</span>
                 </p>
               );
             } else {
               return (
-                <p key={Date.now() + (i * 17)} className='low'>
+                <p key={data.stats[year] + year} className='low'>
                   {year}: {data.stats[year]} 
                   <span className='emoji'>...😡</span>
                 </p>

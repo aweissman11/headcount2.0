@@ -23,7 +23,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944598735"
+    key="COLORADO"
   />
   <Card
     data={
@@ -44,7 +44,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944598758"
+    key="ACADEMY 20"
   />
   <Card
     data={
@@ -65,7 +65,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944598781"
+    key="ADAMS COUNTY 14"
   />
   <Card
     data={
@@ -86,7 +86,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944598804"
+    key="ADAMS-ARAPAHOE 28J"
   />
   <Card
     data={
@@ -107,7 +107,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944598827"
+    key="AGATE 300"
   />
   <Card
     data={
@@ -128,7 +128,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944598850"
+    key="AGUILAR REORGANIZED 6"
   />
   <Card
     data={
@@ -149,7 +149,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944598873"
+    key="AKRON R-1"
   />
   <Card
     data={
@@ -170,7 +170,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944598896"
+    key="ALAMOSA RE-11J"
   />
   <Card
     data={
@@ -191,7 +191,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944598919"
+    key="ARCHULETA COUNTY 50 JT"
   />
   <Card
     data={
@@ -212,7 +212,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944598942"
+    key="ARICKAREE R-2"
   />
   <Card
     data={
@@ -233,7 +233,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944598965"
+    key="ARRIBA-FLAGLER C-20"
   />
   <Card
     data={
@@ -254,7 +254,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944598988"
+    key="ASPEN 1"
   />
   <Card
     data={
@@ -275,7 +275,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599011"
+    key="AULT-HIGHLAND RE-9"
   />
   <Card
     data={
@@ -296,7 +296,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599034"
+    key="BAYFIELD 10 JT-R"
   />
   <Card
     data={
@@ -317,7 +317,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599057"
+    key="BENNETT 29J"
   />
   <Card
     data={
@@ -338,7 +338,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599080"
+    key="BETHUNE R-5"
   />
   <Card
     data={
@@ -359,7 +359,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599103"
+    key="BIG SANDY 100J"
   />
   <Card
     data={
@@ -380,7 +380,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599126"
+    key="BOULDER VALLEY RE 2"
   />
   <Card
     data={
@@ -401,7 +401,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599149"
+    key="BRANSON REORGANIZED 82"
   />
   <Card
     data={
@@ -422,7 +422,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599172"
+    key="BRIGGSDALE RE-10"
   />
   <Card
     data={
@@ -443,7 +443,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599195"
+    key="BRIGHTON 27J"
   />
   <Card
     data={
@@ -464,7 +464,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599218"
+    key="BRUSH RE-2(J)"
   />
   <Card
     data={
@@ -485,7 +485,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599241"
+    key="BUENA VISTA R-31"
   />
   <Card
     data={
@@ -506,7 +506,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599264"
+    key="BUFFALO RE-4"
   />
   <Card
     data={
@@ -527,7 +527,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599287"
+    key="BURLINGTON RE-6J"
   />
   <Card
     data={
@@ -548,7 +548,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599310"
+    key="BYERS 32J"
   />
   <Card
     data={
@@ -569,7 +569,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599333"
+    key="CALHAN RJ-1"
   />
   <Card
     data={
@@ -590,7 +590,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599356"
+    key="CAMPO RE-6"
   />
   <Card
     data={
@@ -611,7 +611,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599379"
+    key="CANON CITY RE-1"
   />
   <Card
     data={
@@ -632,7 +632,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599402"
+    key="CENTENNIAL R-1"
   />
   <Card
     data={
@@ -653,7 +653,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599425"
+    key="CENTER 26 JT"
   />
   <Card
     data={
@@ -674,7 +674,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599448"
+    key="CHERAW 31"
   />
   <Card
     data={
@@ -695,7 +695,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599472"
+    key="CHERRY CREEK 5"
   />
   <Card
     data={
@@ -716,7 +716,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599495"
+    key="CHEYENNE COUNTY RE-5"
   />
   <Card
     data={
@@ -737,7 +737,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599518"
+    key="CHEYENNE MOUNTAIN 12"
   />
   <Card
     data={
@@ -758,7 +758,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599541"
+    key="CLEAR CREEK RE-1"
   />
   <Card
     data={
@@ -779,7 +779,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599564"
+    key="COLORADO SPRINGS 11"
   />
   <Card
     data={
@@ -800,7 +800,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599587"
+    key="COTOPAXI RE-3"
   />
   <Card
     data={
@@ -821,7 +821,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599610"
+    key="CREEDE CONSOLIDATED 1"
   />
   <Card
     data={
@@ -842,7 +842,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599633"
+    key="CRIPPLE CREEK-VICTOR RE-1"
   />
   <Card
     data={
@@ -863,7 +863,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599656"
+    key="CROWLEY COUNTY RE-1-J"
   />
   <Card
     data={
@@ -884,7 +884,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599679"
+    key="CUSTER COUNTY SCHOOL DISTRICT C-1"
   />
   <Card
     data={
@@ -905,7 +905,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599702"
+    key="DE BEQUE 49JT"
   />
   <Card
     data={
@@ -926,7 +926,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599725"
+    key="DEER TRAIL 26J"
   />
   <Card
     data={
@@ -947,7 +947,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599748"
+    key="DEL NORTE C-7"
   />
   <Card
     data={
@@ -968,7 +968,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599771"
+    key="DELTA COUNTY 50(J)"
   />
   <Card
     data={
@@ -989,7 +989,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599794"
+    key="DENVER COUNTY 1"
   />
   <Card
     data={
@@ -1010,7 +1010,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599817"
+    key="DOLORES COUNTY RE NO.2"
   />
   <Card
     data={
@@ -1031,7 +1031,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599840"
+    key="DOLORES RE-4A"
   />
   <Card
     data={
@@ -1052,7 +1052,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599863"
+    key="DOUGLAS COUNTY RE 1"
   />
   <Card
     data={
@@ -1073,7 +1073,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599886"
+    key="DURANGO 9-R"
   />
   <Card
     data={
@@ -1094,7 +1094,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599909"
+    key="EADS RE-1"
   />
   <Card
     data={
@@ -1115,7 +1115,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599932"
+    key="EAGLE COUNTY RE 50"
   />
   <Card
     data={
@@ -1136,7 +1136,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599955"
+    key="EAST GRAND 2"
   />
   <Card
     data={
@@ -1157,7 +1157,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944599978"
+    key="EAST OTERO R-1"
   />
   <Card
     data={
@@ -1178,7 +1178,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600001"
+    key="EAST YUMA COUNTY RJ-2"
   />
   <Card
     data={
@@ -1199,7 +1199,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600024"
+    key="EATON RE-2"
   />
   <Card
     data={
@@ -1220,7 +1220,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600047"
+    key="EDISON 54 JT"
   />
   <Card
     data={
@@ -1241,7 +1241,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600070"
+    key="ELBERT 200"
   />
   <Card
     data={
@@ -1262,7 +1262,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600093"
+    key="ELIZABETH C-1"
   />
   <Card
     data={
@@ -1283,7 +1283,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600116"
+    key="ELLICOTT 22"
   />
   <Card
     data={
@@ -1304,7 +1304,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600139"
+    key="ENGLEWOOD 1"
   />
   <Card
     data={
@@ -1325,7 +1325,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600162"
+    key="FALCON 49"
   />
   <Card
     data={
@@ -1346,7 +1346,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600185"
+    key="FLORENCE RE-2"
   />
   <Card
     data={
@@ -1367,7 +1367,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600208"
+    key="FORT MORGAN RE-3"
   />
   <Card
     data={
@@ -1388,7 +1388,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600231"
+    key="FOUNTAIN 8"
   />
   <Card
     data={
@@ -1409,7 +1409,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600254"
+    key="FOWLER R-4J"
   />
   <Card
     data={
@@ -1430,7 +1430,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600277"
+    key="FRENCHMAN RE-3"
   />
   <Card
     data={
@@ -1451,7 +1451,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600300"
+    key="GARFIELD 16"
   />
   <Card
     data={
@@ -1472,7 +1472,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600323"
+    key="GARFIELD RE-2"
   />
   <Card
     data={
@@ -1493,7 +1493,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600346"
+    key="GENOA-HUGO C113"
   />
   <Card
     data={
@@ -1514,7 +1514,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600369"
+    key="GILPIN COUNTY RE-1"
   />
   <Card
     data={
@@ -1535,7 +1535,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600392"
+    key="GRANADA RE-1"
   />
   <Card
     data={
@@ -1556,7 +1556,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600415"
+    key="GREELEY 6"
   />
   <Card
     data={
@@ -1577,7 +1577,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600438"
+    key="GUNNISON WATERSHED RE1J"
   />
   <Card
     data={
@@ -1598,7 +1598,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600461"
+    key="HANOVER 28"
   />
   <Card
     data={
@@ -1619,7 +1619,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600484"
+    key="HARRISON 2"
   />
   <Card
     data={
@@ -1640,7 +1640,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600507"
+    key="HAXTUN RE-2J"
   />
   <Card
     data={
@@ -1661,7 +1661,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600530"
+    key="HAYDEN RE-1"
   />
   <Card
     data={
@@ -1682,7 +1682,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600553"
+    key="HINSDALE COUNTY RE 1"
   />
   <Card
     data={
@@ -1703,7 +1703,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600576"
+    key="HI-PLAINS R-23"
   />
   <Card
     data={
@@ -1724,7 +1724,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600600"
+    key="HOEHNE REORGANIZED 3"
   />
   <Card
     data={
@@ -1745,7 +1745,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600623"
+    key="HOLLY RE-3"
   />
   <Card
     data={
@@ -1766,7 +1766,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600646"
+    key="HOLYOKE RE-1J"
   />
   <Card
     data={
@@ -1787,7 +1787,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600669"
+    key="HUERFANO RE-1"
   />
   <Card
     data={
@@ -1808,7 +1808,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600692"
+    key="IDALIA SCHOOL DISTRICT RJ-3"
   />
   <Card
     data={
@@ -1829,7 +1829,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600715"
+    key="IGNACIO 11 JT"
   />
   <Card
     data={
@@ -1850,7 +1850,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600738"
+    key="JEFFERSON COUNTY R-1"
   />
   <Card
     data={
@@ -1871,7 +1871,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600761"
+    key="JOHNSTOWN-MILLIKEN RE-5J"
   />
   <Card
     data={
@@ -1892,7 +1892,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600784"
+    key="JULESBURG RE-1"
   />
   <Card
     data={
@@ -1913,7 +1913,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600807"
+    key="KARVAL RE-23"
   />
   <Card
     data={
@@ -1934,7 +1934,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600830"
+    key="KEENESBURG RE-3(J)"
   />
   <Card
     data={
@@ -1955,7 +1955,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600853"
+    key="KIM REORGANIZED 88"
   />
   <Card
     data={
@@ -1976,7 +1976,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600876"
+    key="KIOWA C-2"
   />
   <Card
     data={
@@ -1997,7 +1997,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600899"
+    key="KIT CARSON R-1"
   />
   <Card
     data={
@@ -2018,7 +2018,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600922"
+    key="LA VETA RE-2"
   />
   <Card
     data={
@@ -2039,7 +2039,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600945"
+    key="LAKE COUNTY R-1"
   />
   <Card
     data={
@@ -2060,7 +2060,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600968"
+    key="LAMAR RE-2"
   />
   <Card
     data={
@@ -2081,7 +2081,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944600991"
+    key="LAS ANIMAS RE-1"
   />
   <Card
     data={
@@ -2102,7 +2102,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601014"
+    key="LEWIS-PALMER 38"
   />
   <Card
     data={
@@ -2123,7 +2123,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601037"
+    key="LIBERTY SCHOOL DISTRICT J-4"
   />
   <Card
     data={
@@ -2144,7 +2144,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601060"
+    key="LIMON RE-4J"
   />
   <Card
     data={
@@ -2165,7 +2165,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601083"
+    key="LITTLETON 6"
   />
   <Card
     data={
@@ -2186,7 +2186,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601106"
+    key="LONE STAR 101"
   />
   <Card
     data={
@@ -2207,7 +2207,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601129"
+    key="MANCOS RE-6"
   />
   <Card
     data={
@@ -2228,7 +2228,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601152"
+    key="MANITOU SPRINGS 14"
   />
   <Card
     data={
@@ -2249,7 +2249,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601175"
+    key="MANZANOLA 3J"
   />
   <Card
     data={
@@ -2270,7 +2270,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601198"
+    key="MAPLETON 1"
   />
   <Card
     data={
@@ -2291,7 +2291,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601221"
+    key="MC CLAVE RE-2"
   />
   <Card
     data={
@@ -2312,7 +2312,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601244"
+    key="MEEKER RE1"
   />
   <Card
     data={
@@ -2333,7 +2333,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601267"
+    key="MESA COUNTY VALLEY 51"
   />
   <Card
     data={
@@ -2354,7 +2354,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601290"
+    key="MIAMI/YODER 60 JT"
   />
   <Card
     data={
@@ -2375,7 +2375,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601313"
+    key="MOFFAT 2"
   />
   <Card
     data={
@@ -2396,7 +2396,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601336"
+    key="MOFFAT COUNTY RE:NO 1"
   />
   <Card
     data={
@@ -2417,7 +2417,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601359"
+    key="MONTE VISTA C-8"
   />
   <Card
     data={
@@ -2438,7 +2438,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601382"
+    key="MONTEZUMA-CORTEZ RE-1"
   />
   <Card
     data={
@@ -2459,7 +2459,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601405"
+    key="MONTROSE COUNTY RE-1J"
   />
   <Card
     data={
@@ -2480,7 +2480,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601428"
+    key="MOUNTAIN VALLEY RE 1"
   />
   <Card
     data={
@@ -2501,7 +2501,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601451"
+    key="NORTH CONEJOS RE-1J"
   />
   <Card
     data={
@@ -2522,7 +2522,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601474"
+    key="NORTH PARK R-1"
   />
   <Card
     data={
@@ -2543,7 +2543,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601497"
+    key="NORTHGLENN-THORNTON 12"
   />
   <Card
     data={
@@ -2564,7 +2564,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601520"
+    key="NORWOOD R-2J"
   />
   <Card
     data={
@@ -2585,7 +2585,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601543"
+    key="OTIS R-3"
   />
   <Card
     data={
@@ -2606,7 +2606,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601566"
+    key="OURAY R-1"
   />
   <Card
     data={
@@ -2627,7 +2627,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601589"
+    key="PARK (ESTES PARK) R-3"
   />
   <Card
     data={
@@ -2648,7 +2648,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601612"
+    key="PARK COUNTY RE-2"
   />
   <Card
     data={
@@ -2669,7 +2669,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601635"
+    key="PAWNEE RE-12"
   />
   <Card
     data={
@@ -2690,7 +2690,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601658"
+    key="PEYTON 23 JT"
   />
   <Card
     data={
@@ -2711,7 +2711,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601681"
+    key="PLAINVIEW RE-2"
   />
   <Card
     data={
@@ -2732,7 +2732,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601704"
+    key="PLATEAU RE-5"
   />
   <Card
     data={
@@ -2753,7 +2753,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601727"
+    key="PLATEAU VALLEY 50"
   />
   <Card
     data={
@@ -2774,7 +2774,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601750"
+    key="PLATTE CANYON 1"
   />
   <Card
     data={
@@ -2795,7 +2795,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601773"
+    key="PLATTE VALLEY RE-3"
   />
   <Card
     data={
@@ -2816,7 +2816,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601797"
+    key="PLATTE VALLEY RE-7"
   />
   <Card
     data={
@@ -2837,7 +2837,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601820"
+    key="POUDRE R-1"
   />
   <Card
     data={
@@ -2858,7 +2858,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601843"
+    key="PRAIRIE RE-11"
   />
   <Card
     data={
@@ -2879,7 +2879,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601866"
+    key="PRIMERO REORGANIZED 2"
   />
   <Card
     data={
@@ -2900,7 +2900,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601889"
+    key="PRITCHETT RE-3"
   />
   <Card
     data={
@@ -2921,7 +2921,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601912"
+    key="PUEBLO CITY 60"
   />
   <Card
     data={
@@ -2942,7 +2942,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601935"
+    key="PUEBLO COUNTY RURAL 70"
   />
   <Card
     data={
@@ -2963,7 +2963,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601958"
+    key="RANGELY RE-4"
   />
   <Card
     data={
@@ -2984,7 +2984,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944601981"
+    key="RIDGWAY R-2"
   />
   <Card
     data={
@@ -3005,7 +3005,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602004"
+    key="ROARING FORK RE-1"
   />
   <Card
     data={
@@ -3026,7 +3026,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602027"
+    key="ROCKY FORD R-2"
   />
   <Card
     data={
@@ -3047,7 +3047,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602050"
+    key="SALIDA R-32"
   />
   <Card
     data={
@@ -3068,7 +3068,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602073"
+    key="SANFORD 6J"
   />
   <Card
     data={
@@ -3089,7 +3089,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602096"
+    key="SANGRE DE CRISTO RE-22J"
   />
   <Card
     data={
@@ -3110,7 +3110,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602119"
+    key="SARGENT RE-33J"
   />
   <Card
     data={
@@ -3131,7 +3131,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602142"
+    key="SHERIDAN 2"
   />
   <Card
     data={
@@ -3152,7 +3152,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602165"
+    key="SIERRA GRANDE R-30"
   />
   <Card
     data={
@@ -3173,7 +3173,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602188"
+    key="SILVERTON 1"
   />
   <Card
     data={
@@ -3194,7 +3194,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602211"
+    key="SOUTH CONEJOS RE-10"
   />
   <Card
     data={
@@ -3215,7 +3215,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602234"
+    key="SOUTH ROUTT RE 3"
   />
   <Card
     data={
@@ -3236,7 +3236,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602257"
+    key="SPRINGFIELD RE-4"
   />
   <Card
     data={
@@ -3257,7 +3257,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602280"
+    key="ST VRAIN VALLEY RE 1J"
   />
   <Card
     data={
@@ -3278,7 +3278,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602303"
+    key="STEAMBOAT SPRINGS RE-2"
   />
   <Card
     data={
@@ -3299,7 +3299,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602326"
+    key="STRASBURG 31J"
   />
   <Card
     data={
@@ -3320,7 +3320,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602349"
+    key="STRATTON R-4"
   />
   <Card
     data={
@@ -3341,7 +3341,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602372"
+    key="SUMMIT RE-1"
   />
   <Card
     data={
@@ -3362,7 +3362,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602395"
+    key="SWINK 33"
   />
   <Card
     data={
@@ -3383,7 +3383,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602418"
+    key="TELLURIDE R-1"
   />
   <Card
     data={
@@ -3404,7 +3404,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602441"
+    key="THOMPSON R-2J"
   />
   <Card
     data={
@@ -3425,7 +3425,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602464"
+    key="TRINIDAD 1"
   />
   <Card
     data={
@@ -3446,7 +3446,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602487"
+    key="VALLEY RE-1"
   />
   <Card
     data={
@@ -3467,7 +3467,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602510"
+    key="VILAS RE-5"
   />
   <Card
     data={
@@ -3488,7 +3488,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602533"
+    key="WALSH RE-1"
   />
   <Card
     data={
@@ -3509,7 +3509,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602556"
+    key="WELD COUNTY RE-1"
   />
   <Card
     data={
@@ -3530,7 +3530,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602579"
+    key="WELD COUNTY S/D RE-8"
   />
   <Card
     data={
@@ -3551,7 +3551,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602602"
+    key="WELDON VALLEY RE-20(J)"
   />
   <Card
     data={
@@ -3572,7 +3572,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602625"
+    key="WEST END RE-2"
   />
   <Card
     data={
@@ -3593,7 +3593,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602648"
+    key="WEST GRAND 1-JT"
   />
   <Card
     data={
@@ -3614,7 +3614,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602671"
+    key="WEST YUMA COUNTY RJ-1"
   />
   <Card
     data={
@@ -3635,7 +3635,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602694"
+    key="WESTMINSTER 50"
   />
   <Card
     data={
@@ -3656,7 +3656,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602717"
+    key="WIDEFIELD 3"
   />
   <Card
     data={
@@ -3677,7 +3677,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602740"
+    key="WIGGINS RE-50(J)"
   />
   <Card
     data={
@@ -3698,7 +3698,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602764"
+    key="WILEY RE-13 JT"
   />
   <Card
     data={
@@ -3719,7 +3719,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602787"
+    key="WINDSOR RE-4"
   />
   <Card
     data={
@@ -3740,7 +3740,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602810"
+    key="WOODLAND PARK RE-2"
   />
   <Card
     data={
@@ -3761,7 +3761,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602833"
+    key="WOODLIN R-104"
   />
   <Card
     data={
@@ -3782,7 +3782,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602856"
+    key="WRAY SCHOOL DISTRICT RD-2"
   />
   <Card
     data={
@@ -3803,7 +3803,7 @@ exports[`CardsContainer should have hold the right elements 1`] = `
         },
       }
     }
-    key="1538944602879"
+    key="YUMA SCHOOL DISTRICT 1"
   />
 </div>
 `;

@@ -5,7 +5,7 @@ import { shallow } from 'enzyme';
 import DistrictRepository from '../../helper.js';
 import kinderData from '../../data/kindergartners_in_full_day_program.js';
 
-import CardsContainer from '../../cards-container';
+import CardsContainer from '../../cards-container/cards-container';
 
 describe('CardsContainer', () => {
 
