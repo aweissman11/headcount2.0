@@ -34,11 +34,24 @@ class App extends Component {
     })
   }
 
-  compareData = (district) => {
+  addComparisonCard = (district) => {
     const newDistrict = this.state.cleanData.findByName(district)
-    this.setState({
-      comparison: [newDistrict, ...this.state.comparison]
+
+    if (!this.state.comparison.includes(newDistrict)) {
+      this.setState({
+        comparison: [newDistrict, ...this.state.comparison]
+      })
+    } else {
+      console.log('includes')
+    }
+  }
+
+  removeComparisonCard = (place) => {
+    const newComparisons = this.state.comparison.filter(district => {
+      return district.location !== place
     })
+
+    this.setState({comparison: newComparisons})
   }
 
   // compareDistricts
@@ -54,18 +67,27 @@ class App extends Component {
 
   render() {
 
-    const { data } = this.state
+    const { data, comparison } = this.state
 
     return (
       <div>
         <br />
         Welcome To Headcount 2.0
         <hr />
-        <DataHeader data={data} districtSearch={this.districtSearch}/>
+        <DataHeader 
+          data={data}
+          districtSearch={this.districtSearch}
+        />
         <hr />
-        <Comparison />
+        <Comparison
+          comparison={comparison}
+          removeComparisonCard={this.removeComparisonCard}
+        />
         <hr />
-        <CardsContainer data={data} compareData={this.compareData} />
+        <CardsContainer
+          data={data}
+          compareData={this.addComparisonCard}
+        />
       </div>
 
     );
