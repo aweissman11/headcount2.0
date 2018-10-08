@@ -15,7 +15,8 @@ class App extends Component {
     this.state = {
       data: [],
       comparison: [],
-      comparisonData: {}
+      comparisonData: {},
+      cleanData: {}
     };
   }
 
@@ -28,6 +29,8 @@ class App extends Component {
   }
 
   districtSearch = (entry) => {
+
+
     this.setState({
       data: this.state.cleanData.findAllMatches(entry)
     });
@@ -36,15 +39,23 @@ class App extends Component {
   addComparisonCard = (district) => {
     const newDistrict = this.state.cleanData.findByName(district);
 
-    this.setState({
-      comparison: [newDistrict, ...this.state.comparison]
-    });
-
     if (this.state.comparison.length >= 1) {
       this.setState({
         comparisonData: this.state.cleanData.compareDistrictAverages(district, this.state.comparison[0].location)
       });
     }
+
+    const newDistrictList = this.state.data.filter(place => {
+      return place.location !== district
+    })
+
+
+    this.setState({
+      comparison: [newDistrict, ...this.state.comparison],
+      data: newDistrictList
+    });
+
+
   }
 
   removeComparisonCard = (place) => {
