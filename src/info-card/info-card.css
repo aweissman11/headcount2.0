@@ -1,9 +1,14 @@
 .info-card {
   filter: drop-shadow(3px 3px 3px gray);
+  border-radius: 20px;
+}
+
+.info-card, h4, p, .year-list, span {
+  background-color: rgba(230, 230, 230, 1)
 }
 
 .year-list {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .hi {

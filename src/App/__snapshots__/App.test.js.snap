@@ -3,7 +3,9 @@
 exports[`App should have hold the right elements 1`] = `
 <div>
   <br />
-  Welcome To Headcount 2.0
+  <h1>
+    Welcome To Headcount 2.0
+  </h1>
   <hr />
   <DataHeader
     data={
@@ -2909,9 +2911,13 @@ exports[`App should have hold the right elements 1`] = `
     districtSearch={[Function]}
   />
   <hr />
-  <Comparison />
+  <Comparison
+    comparison={Array []}
+    removeComparisonCard={[Function]}
+  />
   <hr />
   <CardsContainer
+    compareData={[Function]}
     data={
       Array [
         Object {

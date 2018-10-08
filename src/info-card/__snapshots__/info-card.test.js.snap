@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`InfoCard should have hold the right elements 1`] = `
+exports[`info-card should render the correct elements 1`] = `
 <div
   className="info-card"
   onClick={[Function]}
 >
   <h4>
-    Colorado
+    COLORADO
   </h4>
   <div
     className="year-list"

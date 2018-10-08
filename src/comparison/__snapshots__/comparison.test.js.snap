@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`comparison should display no Info 1`] = `
+<div
+  className="comparison"
+>
+  Click on Districts to run a comparison analysis
+</div>
+`;
+
+exports[`comparison should only have one InfoCard if there is only one 1`] = `
+<div
+  className="one-comparison"
+>
+  <Card
+    compareData={[Function]}
+    data={
+      Object {
+        "location": "COLORADO",
+        "stats": Object {
+          "2004": 0.24,
+          "2005": 0.278,
+          "2006": 0.337,
+          "2007": 0.395,
+          "2008": 0.536,
+          "2009": 0.598,
+          "2010": 0.64,
+          "2011": 0.672,
+          "2012": 0.695,
+          "2013": 0.703,
+          "2014": 0.741,
+        },
+      }
+    }
+  />
+  <div>
+    Click another card to see a comparision
+  </div>
+</div>
+`;
+
+exports[`comparison should render the correct component 1`] = `
+<div
+  className="two-comparison"
+>
+  <Card
+    compareData={[Function]}
+    data={
+      Object {
+        "location": "COLORADO",
+        "stats": Object {
+          "2004": 0.24,
+          "2005": 0.278,
+          "2006": 0.337,
+          "2007": 0.395,
+          "2008": 0.536,
+          "2009": 0.598,
+          "2010": 0.64,
+          "2011": 0.672,
+          "2012": 0.695,
+          "2013": 0.703,
+          "2014": 0.741,
+        },
+      }
+    }
+  />
+  <div>
+    Comparison Card
+    <br />
+    COLORADO
+     avg: 
+    0.53
+    <br />
+    School 1/ School 2: 
+    0.636
+    <br />
+    COLORADO SPRINGS 11
+     avg: 
+    0.833
+  </div>
+  <Card
+    compareData={[Function]}
+    data={
+      Object {
+        "location": "COLORADO SPRINGS 11",
+        "stats": Object {
+          "2004": 0.069,
+          "2005": 0.509,
+          "2006": 0.638,
+          "2007": 0.994,
+          "2008": 0.992,
+          "2009": 1,
+          "2010": 0.993,
+          "2011": 0.994,
+          "2012": 0.993,
+          "2013": 0.989,
+          "2014": 0.994,
+        },
+      }
+    }
+  />
+</div>
+`;
