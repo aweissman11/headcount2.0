@@ -32,13 +32,13 @@ describe('data-header', () => {
     expect(spy).toHaveBeenCalled()
   })
 
-  it('calls enterSearch on key up', () => {
-    wrapper = mount(<DataHeader data={data} districtSearch={searchMock} />)
-    const spy = spyOn(wrapper.instance(), 'enterSearch')
-    wrapper.instance().forceUpdate()
-    wrapper.find('.search-input').simulate('keyUp')
-    expect(spy).toHaveBeenCalled()
-  })
+  // it('calls enterSearch on key up', () => {
+  //   wrapper = mount(<DataHeader data={data} districtSearch={searchMock} />)
+  //   const spy = spyOn(wrapper.instance(), 'enterSearch')
+  //   wrapper.instance().forceUpdate()
+  //   wrapper.find('.search-input').simulate('keyUp')
+  //   expect(spy).toHaveBeenCalled()
+  // })
 
   it('updates state when searchChange is called', () => {
     const mockEvent = { target: { value: 'something' } }
@@ -47,7 +47,8 @@ describe('data-header', () => {
   })
 
   it('should be able to search', () => {
-    wrapper.instance().enterSearch()
+    const mockEvent = { target: { value: 'something' } }
+    wrapper.instance().searchChange(mockEvent)
     expect(searchMock).toHaveBeenCalled()
   })
 
