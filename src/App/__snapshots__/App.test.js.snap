@@ -2913,6 +2913,7 @@ exports[`App should have hold the right elements 1`] = `
   <hr />
   <Comparison
     comparison={Array []}
+    comparisonData={Object {}}
     removeComparisonCard={[Function]}
   />
   <hr />

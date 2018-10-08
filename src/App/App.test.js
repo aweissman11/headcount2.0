@@ -53,7 +53,7 @@ describe('App', () => {
   })
 
   it('should start without comparison data', () => {
-    expect(wrapper.state('comparisonData')).toEqual(undefined)
+    expect(wrapper.state('comparisonData')).toEqual({})
   })
 
   it('should add comparison data', () => {

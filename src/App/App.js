@@ -14,7 +14,8 @@ class App extends Component {
 
     this.state = {
       data: [],
-      comparison: []
+      comparison: [],
+      comparisonData: {}
     };
   }
 
