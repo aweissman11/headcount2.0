@@ -3,6 +3,12 @@
   border-radius: 20px;
 }
 
+.info-card:hover {
+  transform: scale(1.05);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
 .info-card, h4, p, .year-list, span {
   background-color: rgba(230, 230, 230, 1)
 }

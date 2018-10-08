@@ -58,11 +58,8 @@ describe('App', () => {
   })
 
   it('should add comparison data', () => {
-    
     wrapper.instance().addComparisonCard('colorado')
-    // console.log(wrapper.state('comparisonData'))
     wrapper.instance().addComparisonCard('ACADEMY 20')
-    // console.log(wrapper.state('comparisonData'))
     expect(wrapper.state('comparisonData')).toEqual({"ACADEMY 20": 0.407, "compared": 1})
   })
   

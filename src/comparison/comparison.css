@@ -9,4 +9,11 @@
   max-width: 800px;
 }
 
+.compare-info p {
+
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+  margin: 30px;  
+}
 
