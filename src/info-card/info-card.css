@@ -1,6 +1,7 @@
 .info-card {
   filter: drop-shadow(3px 3px 3px gray);
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .info-card:hover {
