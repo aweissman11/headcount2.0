@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import kinderData from '../data/kindergartners_in_full_day_program.js';
-import thirdGraders from '../data/3rd_grade_tests.js';
 
 import './App.css';
 import DataHeader from '../data-header/data-header';
