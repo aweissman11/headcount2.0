@@ -1,15 +1,10 @@
-import React, { Component } from 'react';
-// import ReactChartkick, { AreaChart, LineChart, ColumnChart } from 'react-chartkick'
+import React from 'react';
 import PropTypes from 'prop-types';
-// import Chart from 'chart.js'
 
 import InfoCard from '../info-card/info-card';
 import './comparison.css';
 
-// ReactChartkick.addAdapter(Chart)
-
 const Comparison = (props) => {
-
   if (props.comparison.length === 0) {
     return (
       <div className='comparison'>
@@ -33,14 +28,11 @@ const Comparison = (props) => {
           data={props.comparison[0]}
           compareData={props.removeComparisonCard}
         />
-        <div>
-          Comparison Card
-          <br />
-          {props.comparison[0].location} avg: {props.comparisonData[props.comparison[0].location]} 
-          <br />
-          School 1/ School 2: {props.comparisonData.compared}
-          <br />
-          {props.comparison[1].location} avg: {props.comparisonData[props.comparison[1].location]}
+        <div className='compare-info'>
+          <h3>Comparison Card</h3>
+          <p>&larr;   {props.comparison[0].location} avg: {props.comparisonData[props.comparison[0].location]} </p>
+          <p>School 1/ School 2: {props.comparisonData.compared}</p>
+          <p>{props.comparison[1].location} avg: {props.comparisonData[props.comparison[1].location]}   &rarr;</p>
         </div>
         <InfoCard
           data={props.comparison[1]}

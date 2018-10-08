@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
+import './data-header.css'
+
 
 class DataHeader extends Component {
   constructor(props) {
@@ -35,7 +37,7 @@ class DataHeader extends Component {
           onChange={this.searchChange}
           onKeyUp={this.enterSearch}
           value={this.state.search}
-          placeholder='search'
+          placeholder='search districts here'
         >
         </input>
         <h3>Kindergartners in Full-Day-Programs</h3>

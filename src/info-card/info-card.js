@@ -1,11 +1,7 @@
 import React from 'react';
-import ReactChartkick, { AreaChart, LineChart, ColumnChart } from 'react-chartkick';
 import PropTypes from 'prop-types';
-import Chart from 'chart.js';
 
 import './info-card.css';
-
-ReactChartkick.addAdapter(Chart);
 
 const Card = ({ data, compareData }) => {
   return (
@@ -19,14 +15,18 @@ const Card = ({ data, compareData }) => {
               return (
                 <p key={data.stats[year] + year} className='hi'>
                   {year}: {data.stats[year]} 
-                  <span className='emoji'>...👍</span>
+                  <span className='emoji'>...
+                    <span role='img' aria-label='emoji'>👍</span>
+                  </span>
                 </p>
               );
             } else {
               return (
                 <p key={data.stats[year] + year} className='low'>
                   {year}: {data.stats[year]} 
-                  <span className='emoji'>...😡</span>
+                  <span className='emoji'>...
+                    <span role='img' aria-label='emoji'>😡</span>
+                  </span>
                 </p>
               );
             }

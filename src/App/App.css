@@ -1,5 +1,10 @@
 /*APP COMPONENT RELATED CSS GOES HERE*/
 * {
   text-align: center;
-  background-color: rgba(210, 210, 210, 1)
+  background-color: rgba(210, 210, 210, 1);
+  border-radius: 20px;
+}
+
+h4 {
+  padding-top: 10px;
 }
