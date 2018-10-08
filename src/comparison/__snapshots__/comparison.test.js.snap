@@ -64,19 +64,29 @@ exports[`comparison should render the correct component 1`] = `
       }
     }
   />
-  <div>
-    Comparison Card
-    <br />
-    COLORADO
-     avg: 
-    0.53
-    <br />
-    School 1/ School 2: 
-    0.636
-    <br />
-    COLORADO SPRINGS 11
-     avg: 
-    0.833
+  <div
+    className="compare-info"
+  >
+    <h3>
+      Comparison Card
+    </h3>
+    <p>
+      ←   
+      COLORADO
+       avg: 
+      0.53
+       
+    </p>
+    <p>
+      School 1/ School 2: 
+      0.636
+    </p>
+    <p>
+      COLORADO SPRINGS 11
+       avg: 
+      0.833
+         →
+    </p>
   </div>
   <Card
     compareData={[Function]}

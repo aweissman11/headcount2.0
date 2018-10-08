@@ -9,8 +9,6 @@ import CardsContainer from '../cards-container/cards-container';
 import DistrictRepository from '../helper';
 import Comparison from '../comparison/comparison';
 
-
-
 class App extends Component {
   constructor() {
     super();

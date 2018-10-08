@@ -5,7 +5,6 @@ export default class DistrictRepository {
 
   cleanData = (data) => {
     let cleanData = data.reduce( (schools, year) => {
-
       let roundedYear = Math.round(year.Data * 1000)/1000 || 0;
 
       if (!schools[year.Location]) {
@@ -18,7 +17,6 @@ export default class DistrictRepository {
       return schools;
     }, {});
     return cleanData;
-
   }
 
   findByName = (enteredName) => {

@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 import './data-header.css'
 
-
 class DataHeader extends Component {
   constructor(props) {
     super(props);
@@ -23,10 +22,6 @@ class DataHeader extends Component {
   enterSearch = () => {
     this.props.districtSearch(this.state.search);
   }
-
-  // enterDropdown = (target) => {
-  //   this.props.districtSearch(target);
-  // }
 
   render() {
     return (
@@ -51,15 +46,3 @@ DataHeader.propTypes = {
 };
 
 export default DataHeader;
-
-// <select className='district-dropdown'>
-//   {
-//     this.props.data.map( (place, i) => {
-//       return (
-//         <option  onSubmit={() => this.enterDropdown(place.location.toUpperCase())} key={Date.now() + (i*43)} value={place.location}>
-//           {place.location.toUpperCase()}
-//         </option>
-//       )
-//     })
-//   }
-// </select>

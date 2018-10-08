@@ -8,7 +8,7 @@ exports[`data-header should render the correct elements 1`] = `
     className="search-input"
     onChange={[Function]}
     onKeyUp={[Function]}
-    placeholder="search"
+    placeholder="search districts here"
     value=""
   />
   <h3>
