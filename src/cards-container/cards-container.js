@@ -25,7 +25,8 @@ const CardsContainer = (props) => {
 };
 
 CardsContainer.propTypes = {
-  data: PropTypes.array
+  data: PropTypes.array,
+  compareData: PropTypes.func
 };
 
 export default CardsContainer;

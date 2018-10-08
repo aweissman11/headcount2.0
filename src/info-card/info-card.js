@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactChartkick, { AreaChart, LineChart, ColumnChart } from 'react-chartkick';
 import PropTypes from 'prop-types';
 import Chart from 'chart.js';
@@ -39,7 +39,8 @@ const Card = ({ data, compareData }) => {
 };
 
 Card.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.object,
+  compareData: PropTypes.func
 };
 
 export default Card;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`data-header should render the correct elements 1`] = `
+<div
+  className="data-header"
+>
+  <input
+    className="search-input"
+    onChange={[Function]}
+    onKeyUp={[Function]}
+    placeholder="search"
+    value=""
+  />
+  <h3>
+    Kindergartners in Full-Day-Programs
+  </h3>
+</div>
+`;

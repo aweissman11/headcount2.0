@@ -22,16 +22,16 @@ class DataHeader extends Component {
     this.props.districtSearch(this.state.search);
   }
 
-  enterDropdown = (target) => {
-    console.log('click');
-    this.props.districtSearch(target);
-  }
+  // enterDropdown = (target) => {
+  //   this.props.districtSearch(target);
+  // }
 
   render() {
     return (
       <div className='data-header'>
 
-        <input 
+        <input
+          className='search-input' 
           onChange={this.searchChange}
           onKeyUp={this.enterSearch}
           value={this.state.search}

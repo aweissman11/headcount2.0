@@ -84,7 +84,8 @@ export default class DistrictRepository {
     return ({
       [school1.toUpperCase()]: this.findAverage(school1),
       [school2.toUpperCase()]: this.findAverage(school2),
-      compared: Math.round((this.findAverage(school1) / this.findAverage(school2)) * 1000) / 1000
+      compared: Math.round(
+        (this.findAverage(school1) / this.findAverage(school2)) * 1000) / 1000
     });
   }
 

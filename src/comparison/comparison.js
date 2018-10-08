@@ -53,7 +53,9 @@ const Comparison = (props) => {
 
 
 Comparison.propTypes = {
-  // data: PropTypes.object
+  comparison: PropTypes.array,
+  removeComparisonCard: PropTypes.func,
+  comparisonData: PropTypes.object
 };
 
 export default Comparison;
