@@ -16,11 +16,7 @@ class DataHeader extends Component {
     const { value } = e.target;
     this.setState({
       search: value
-    });
-  }
-
-  enterSearch = () => {
-    this.props.districtSearch(this.state.search);
+    }, () => this.props.districtSearch(this.state.search));
   }
 
   render() {
@@ -30,7 +26,6 @@ class DataHeader extends Component {
         <input
           className='search-input' 
           onChange={this.searchChange}
-          onKeyUp={this.enterSearch}
           value={this.state.search}
           placeholder='search districts here'
         >
